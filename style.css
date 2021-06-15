@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	width: 100%;
+	min-height: 100vh;
+	background-image:linear-gradient(
+    	180deg,#532fd3 5%,
+        #9c74e7 20%,
+        #dda7e7 60%,
+        #e24de2 95%
+	);
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    position: relative;
+
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(221, 29, 147)
+
+}
+
+main > section img {
+    width: 300px;
+    height: 300px;
+
+}
+main > section:not(.pontuacao-container) {
+	align-items:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
+	background:rgba(255,255,255,0.18);
+	box-shadow:0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.18);
+
+}
+
+main > section p {
+    color: rgb(63, 9, 63) ;
+    font-size: 20px;
+    font-family: EuclidBold;  
+    text-shadow: 2px 2px 5px rgb(25, 26, 63)  
+}
+
+
